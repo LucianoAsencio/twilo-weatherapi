@@ -13,7 +13,7 @@ Este proyecto extrae datos del clima en la ciudad de Mar del Plata utilizando la
 <li>Clone este repositorio a su máquina local.</li>
 <li>Instale las dependencias necesarias mediante pip. (twilio, python-dotenv)</li>
 <li>Reemplace los valores del archivo '.env' con sus propias claves de API y números de teléfono.</li>
-<li>Ejecute el archivo weather_alerts.py</li>
+<li>Ejecute el archivo script.py</li>
 </ol>
 
 
@@ -22,7 +22,8 @@ Este proyecto extrae datos del clima en la ciudad de Mar del Plata utilizando la
 - Puede modificar la ciudad para la cual se extraen los datos del clima en el script, intercambiando el link que se otorga en la request.
 - Puede personalizar el mensaje de texto enviado en el método .create().
 
-
+# **Extras**
+- Se agregó un de DAG a modo de ejemplo, en caso de querer que el archivo corra en alguna máquina virtual con Airflow para su automatización.
 <hr>
 
 `Este proyecto es solo para fines educativos y no se recomienda su uso en producción sin una revisión adecuada y pruebas exhaustivas.`
